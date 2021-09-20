@@ -14,10 +14,11 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
     watchSlidesProgress: true,
   });
   var galleryTop = new Swiper('.gallery-top', {
+    slidesPerView: 1,
     loop: true,
     spaceBetween: 10,
     autoplay: {
-        delay: 2500,
+        delay: 5000,
         disableOnInteraction: false,
     },
     thumbs: {

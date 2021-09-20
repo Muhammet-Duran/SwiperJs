@@ -153,11 +153,18 @@
   background-size:85%;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-slide img{
+  max-width: 100%;
 }
 
 .gallery-top {
   height: 80%;
   width: 100%;
+  overflow: hidden;
 }
 
 .gallery-thumbs {
@@ -213,9 +220,14 @@
   background-color: #BBBBBB;
   margin-top: 20px;
   position: relative;
+  cursor: pointer;
+  
    
 }
-.c-color .color:before{
+.c-color .color:hover{
+  background-color: #FFF;
+}
+.c-color .color::before{
   content: "";
   position: absolute;
   left: -5px;
@@ -224,6 +236,9 @@
   bottom: -5px;
   border:1px solid #BBBBBB;
   border-radius: 50%;
+}
+.c-color .color:hover::before{
+  border-color:#FFF;
 }
 .description{
   margin-top: 30px;

@@ -1,1 +1,2 @@
 # SwiperJs
+# SwiperJs-Tabs

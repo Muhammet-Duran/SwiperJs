@@ -7,7 +7,7 @@
   text-decoration: none;
 
 }
-.body{
+body{
   font-family: 'Roboto', sans-serif;
 }
 .container-banner{
@@ -148,45 +148,45 @@
   max-width: 100%;
   border-radius:4px;
 }
-.list-area .list-content .list-item .product-info {
+.list-area .product-info {
   text-align: center;
   margin-top: auto;
   width: 100%;
 }
-.list-area .list-content .list-item .product-info .product-title {
+.list-area .product-info .product-title {
   
   margin-bottom: 10px;
   font-size: 12px;
   font-weight: 700;
   color: #28842D;
 }
-.list-area .list-content .list-item .product-info .Product-name {
+.list-area .product-info .Product-name {
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 10px;
   color: #414141;
  }
 
-.list-area .list-content .list-item .product-info .product-body .price {
+.list-area .product-info .product-body .price {
   font-size: 14px;
   margin-bottom: 12px;
 }
-.list-area .list-content .list-item .product-info .product-body .price .old-price {
+.list-area .product-info .product-body .price .old-price {
   font-weight: 200;
   color:#969696;
   text-decoration: line-through;
   margin-right: 6px;
   margin-bottom: 10px;
 }
-.list-area .list-content .list-item .product-info .product-body .price .new-price {
+.list-area .product-info .product-body .price .new-price {
   font-weight: 600;
   color: #BC0000;
 }
-.list-area .list-content .list-item .product-info .btn-are {
+.list-area .product-info .btn-are {
     padding: 4px;
   }
   
-.list-area .list-content .list-item .product-info .btn-are .start-btn {
+.list-area .product-info .btn-are .start-btn {
   width: 100%;
   cursor: pointer;
   border:1px solid #28842D;
@@ -216,7 +216,7 @@
     transform: translateY(-10%);
     border:1px solid #d9d9d9;
   }
-  .list-area .list-content .list-item .product-info .btn-are .start-btn:hover{
+  .list-area .product-info .btn-are .start-btn:hover{
     background-color: #28842D;
     color:#FFF;
   }
@@ -239,7 +239,7 @@
     max-width: 100%;
     border: none;
   }
-  .list-area .list-content .list-item .product-info .product-body{
+  .list-area .product-info .product-body{
     display: none;
   }
   .list-area .list-content .list-item.active{
@@ -247,7 +247,7 @@
     box-shadow:none;
     
   }
-  .list-area .list-content .list-item .product-info .btn-are .start-btn{
+  .list-area .product-info .btn-are .start-btn{
     font-size: 10px;
     font-weight: 600;
   }
